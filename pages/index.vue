@@ -232,7 +232,7 @@
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <a href="https://code.visualstudio.com/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <svg class="mr-2" viewBox="-11.9 -2 1003.9 995.6" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
             <path d="m12.1 353.9s-24-17.3 4.8-40.4l67.1-60s19.2-20.2 39.5-2.6l619.2 468.8v224.8s-.3 35.3-45.6 31.4z" fill="#2489ca"/>
             <path d="m171.7 498.8-159.6 145.1s-16.4 12.2 0 34l74.1 67.4s17.6 18.9 43.6-2.6l169.2-128.3z" fill="#1070b3"/>
@@ -243,55 +243,55 @@
         </a>
         <a href="https://www.jetbrains.com/phpstorm/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <svg class="mr-2" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="32" height="32"><style>.st0{fill:url(#SVGID_1_)}.st1{fill:url(#SVGID_2_)}.st2{fill:url(#SVGID_3_)}.st3{fill:url(#SVGID_4_)}.st4{fill:#fff}</style><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1=".551" y1="25.16" x2="29.941" y2="63.98" gradientTransform="matrix(1 0 0 -1 0 72)"><stop offset=".016" stop-color="#765af8"/><stop offset=".382" stop-color="#b345f1"/><stop offset=".758" stop-color="#fa3293"/><stop offset=".941" stop-color="#ff318c"/></linearGradient><path class="st0" d="M39.6 15.2l-3.3-10L11.9 0 0 13.5l37.2 19z"/><linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2.709" y1="23.637" x2="32.052" y2="62.394" gradientTransform="matrix(1 0 0 -1 0 72)"><stop offset=".016" stop-color="#765af8"/><stop offset=".382" stop-color="#b345f1"/><stop offset=".758" stop-color="#fa3293"/><stop offset=".941" stop-color="#ff318c"/></linearGradient><path class="st1" d="M28 41.4l-.7-20.8L0 13.5l6.7 40.1 21.3-.2z"/><linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="50.856" y1="25.595" x2="34.273" y2="64.952" gradientTransform="matrix(1 0 0 -1 0 72)"><stop offset=".183" stop-color="#765af8"/><stop offset=".238" stop-color="#8655f6"/><stop offset=".345" stop-color="#9f4cf3"/><stop offset=".443" stop-color="#ae47f2"/><stop offset=".522" stop-color="#b345f1"/></linearGradient><path class="st2" d="M22.1 41l1.3-16.5L43.2 4.2l17.7 3.2L70 30.1l-9.5 9.4L45 37l-9.6 10.1z"/><linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="63.251" y1="14.642" x2="24.683" y2="44.465" gradientTransform="matrix(1 0 0 -1 0 72)"><stop offset=".016" stop-color="#765af8"/><stop offset=".382" stop-color="#b345f1"/></linearGradient><path class="st3" d="M43.2 4.2L14.8 29.4l5.5 32.4L43.9 70 70 54.4z"/><g><path d="M13.4 13.4h43.2v43.2H13.4z"/><path class="st4" d="M17.5 48.5h16.2v2.7H17.5zM17.3 19h7.3c4.3 0 6.9 2.5 6.9 6.2v.1c0 4.2-3.2 6.3-7.3 6.3h-3V37h-3.9V19zm7.1 9c2 0 3.1-1.2 3.1-2.7v-.1c0-1.8-1.2-2.7-3.2-2.7h-3V28h3.1zM32.5 34.4l2.3-2.8c1.6 1.3 3.3 2.2 5.4 2.2 1.6 0 2.6-.6 2.6-1.7V32c0-1-.6-1.5-3.6-2.3-3.6-.9-6-1.9-6-5.5v-.1c0-3.3 2.6-5.4 6.3-5.4 2.6 0 4.9.8 6.7 2.3l-2.1 3c-1.6-1.1-3.2-1.8-4.7-1.8s-2.3.7-2.3 1.6v.1c0 1.2.8 1.6 3.9 2.4 3.6 1 5.7 2.3 5.7 5.4v.1c0 3.6-2.7 5.6-6.6 5.6-2.7-.1-5.4-1.1-7.6-3"/></g></svg>
           PHPStorm
         </a>
         <a href="https://insomnia.rest/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <svg class="mr-2" width="32" height="32" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path d="M17,32.187c8.387,0 15.186,-6.8 15.186,-15.187c0,-8.387 -6.799,-15.186 -15.186,-15.186c-8.387,0 -15.187,6.799 -15.187,15.186c0,8.387 6.8,15.187 15.187,15.187Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M17,1c-8.837,0 -16,7.163 -16,16c0,8.837 7.163,16 16,16c8.837,0 16,-7.163 16,-16c0,-8.837 -7.163,-16 -16,-16Zm0,1.627c7.938,0 14.373,6.435 14.373,14.373c0,7.938 -6.435,14.373 -14.373,14.373c-7.938,0 -14.373,-6.435 -14.373,-14.373c0,-7.938 6.435,-14.373 14.373,-14.373Z" style="fill:#4000bf;fill-rule:nonzero;"/><path d="M17.181,5.61c6.29,0 11.39,5.1 11.39,11.39c0,6.291 -5.1,11.39 -11.39,11.39c-6.291,0 -11.39,-5.099 -11.39,-11.39c0,-1.537 0.305,-3.004 0.857,-4.342c0.806,1.098 2.106,1.811 3.572,1.811c2.447,0 4.43,-1.983 4.43,-4.429c0,-1.467 -0.713,-2.767 -1.811,-3.573c1.338,-0.552 2.804,-0.857 4.342,-0.857Z" style="fill:url(#_Linear1);"/><defs><linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.39485e-15,-22.7797,22.7797,1.39485e-15,17.1808,28.3899)"><stop offset="0" style="stop-color:#7400e1;stop-opacity:1"/><stop offset="1" style="stop-color:#4000bf;stop-opacity:1"/></linearGradient></defs></svg>
           Insomnia
           </a>
         <a href="https://tableplus.com/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="tableplus icon" src="~/assets/images/tableplus.png">
           TablePlus
         </a>
         <a href="https://myray.app/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="spatie ray icon" src="~/assets/images/Ray_256x256x32.png">
           Ray
         </a>
         <a href="https://tinkerwell.app/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="tinkerwell icon" src="~/assets/images/tinkerwell_logo.png">
           Tinkerwell
         </a>
         <a href="https://usehelo.com/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="HELO icon" src="~/assets/images/HELO_256x256x32.png">
           HELO
         </a>
         <a href="https://coderunnerapp.com/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="coderunner icon" src="~/assets/images/coderunner.png">
           CodeRunner
         </a>
         <a href="https://cyberduck.io/" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="cyberduck icon" src="~/assets/images/cyberduck-application_32x32x32.png">
           Cyberduck
         </a>
         <a href="https://docker.com" target="_blank" class="flex items-center p-4 shadow-[3px_3px_rgba(255,255,255,0.35)] font-bold bg-slate-100 text-slate-800  transition 
           hover:shadow-yellow-500 hover:bg-white hover:scale-105
-          focus:shadow-yellow-500 focus:bg-white focus:outline-none">
+          focus:shadow-yellow-500 focus:bg-white focus:outline-none focus:scale-105">
           <img class="inline-block w-8 h-8 mr-2" alt="docker icon" src="~/assets/images/docker-48.png">
           Docker
         </a>
