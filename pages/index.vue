@@ -34,7 +34,7 @@
           >
             <a
               class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="#"
+              href="https://www.twitter.com/msbuildsio"
             >
               <svg
                 role="img"
@@ -52,7 +52,7 @@
             </a>
             <a
               class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="#"
+              href="https://www.github.com/msbuilds"
             >
               <svg
                 role="img"
@@ -70,7 +70,7 @@
             </a>
             <a
               class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="#"
+              href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg"
             >
               <svg
                 role="img"
@@ -105,78 +105,114 @@
             <h2 class="text-3xl">Get started today.</h2>
             <div class="my-8">
               <a class=" inline-block px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
-			  hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
-			  focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none"
-                href="">
-				Watch Videos
-			</a>
-			<a class=" ml-4 inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
-				  hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
-				  focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none"
-                href="#">
-				Browse Github
-			</a>
+			        hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
+			        focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none"
+                href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg">
+				      Watch Videos
+			        </a>
+              <a class=" ml-4 inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
+                  hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
+                  focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none"
+                        href="https://www.github.com/msbuilds">
+                Browse Github
+              </a>
             </div>
             <div class="mt-32">
-              <h2 class="text-6xl font-extrabold">Proof that ur trash.</h2>
+              <h2 class="text-6xl font-extrabold">Recently Updated</h2>
               <div
                 class="grid grid-cols-1 gap-8 mt-6 md:grid-cols-2 xl:grid-cols-4"
               >
                 <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
                   <div class="aspect-video bg-slate-800"></div>
                   <div class="p-6">
-                    <span class="block pb-2 text-yellow-600">Video</span>
+										<div>
+											<span class="pb-2 text-yellow-600">
+												Video	
+											</span>
+										</div>
                     <h3 class="font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Building MSBuilds
                     </h3>
+										<strong class="px-2 text-sm text-green-600 bg-green-100 rounded-full">coming soon</strong>
                     <p class="mt-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      In sit amet pulvinar velit, sit amet aliquet turpis. Nulla
-                      at lectus sed leo egestas fringilla vitae ut neque.
+                      Enjoy the journey as a PHP developer takes on the exciting world of Javascript. Building a static website using Nuxt.js, Vercel and TailwindCSS. 
                     </p>
                   </div>
                 </div>
                 <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
                   <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6">
-                    <span class="block pb-2 text-sky-600">Post</span>
-                    <h3 class="font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
-                    <p class="mt-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      In sit amet pulvinar velit, sit amet aliquet turpis. Nulla
-                      at lectus sed leo egestas fringilla vitae ut neque.
-                    </p>
-                  </div>
+									<div class="p-6 animate-pulse">
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+									</div>
                 </div>
                 <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
                   <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6">
-                    <span class="block pb-2 text-orange-600">Repository</span>
-                    <h3 class="font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
-                    <p class="mt-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      In sit amet pulvinar velit, sit amet aliquet turpis. Nulla
-                      at lectus sed leo egestas fringilla vitae ut neque.
-                    </p>
-                  </div>
+									<div class="p-6 animate-pulse">
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+									</div>
                 </div>
                 <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
                   <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6">
-                    <span class="block pb-2 text-yellow-600">Video</span>
-                    <h3 class="font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
-                    <p class="mt-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      In sit amet pulvinar velit, sit amet aliquet turpis. Nulla
-                      at lectus sed leo egestas fringilla vitae ut neque.
-                    </p>
-                  </div>
+									<div class="p-6 animate-pulse">
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+										<div class="flex-1 py-1 space-y-6">
+											<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											<div class="space-y-3">
+												<div class="grid grid-cols-3 gap-4">
+													<div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+													<div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
+												</div>
+												<div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
+											</div>
+										</div>
+									</div>
                 </div>
               </div>
             </div>
