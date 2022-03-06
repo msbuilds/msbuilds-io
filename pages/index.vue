@@ -5,7 +5,7 @@
         class="absolute inset-0 grid-bg"
         style="mask-image: linear-gradient(to top, transparent, black);-webkit-mask-image: linear-gradient(to top, transparent, black);"
       ></div>
-      <div class="relative m-auto mb-12 p-9 max-w-8xl text-slate-800">
+      <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800">
         <div class="flex justify-between">
           <a
             href="/"
@@ -102,7 +102,7 @@
               building together.
             </h1>
             <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
-            <h2 class="text-3xl">Get started today.</h2>
+            <h2 class="text-3xl">{{ inspiration }}</h2>
             <div class="my-8">
               <a class="block text-center mb-4 xs:text-left xs:inline-block xs:mr-4 xs:mb-0 px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
               hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
@@ -220,7 +220,7 @@
         </div>
       </div>
     </div>
-    <div class="-skew-y-3 my-36 ">
+    <section class="-skew-y-3 my-36 ">
         <div class="grid h-10 grid-cols-3 -mb-5 mt-36">
             <div class="bg-transparent"></div>
             <div class="col-span-2 bg-yellow-500"></div>
@@ -304,47 +304,63 @@
             <div class="bg-yellow-500"></div>
             <div class="col-span-2 bg-transparent"></div>
         </div>
-    </div>
-    <div class="relative">
+    </section>
+    <section class="relative pt-12 pb-36">
         <div class="absolute inset-0 grid-bg top-1"
             style="mask-image: linear-gradient(to bottom, transparent, black);-webkit-mask-image: linear-gradient(to bottom, transparent, black);">
         </div>
-        <div class="relative px-8 py-16 m-auto text-slate-800 max-w-8xl">
+        <div class="relative px-8 m-auto text-slate-800 max-w-8xl">
             <h2 class="mb-8 text-6xl font-extrabold leading-snug">Topics of Interest</h2>
             <p class="my-4">
                 Gone are the days of sitting down with your index.html file and building a website. With technology getting more complex each year, it's important as developers to remain interested in the ever-changing landscape. It isn't easy, and a lot of these technologies don't stick around for the long haul, but every year a new staple technology tends to emerge.  Below are some of the most common technologies and topics part of my workflow today.
             </p>
-            <ul class="grid grid-cols-4 gap-4 mt-12">
+            <ul class="grid grid-cols-1 gap-4 mt-12 lg:grid-cols-2">
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Laravel
+                    <h3 class="text-xl font-bold text-center">Laravel</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Drupal
+                    <h3 class="text-xl font-bold text-center">Drupal</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Gitlab
+                    <h3 class="text-xl font-bold text-center">Gitlab</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Docker
+                    <h3 class="text-xl font-bold text-center">Docker</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Kubernetes
+                    <h3 class="text-xl font-bold text-center">Kubernetes</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Ansible
+                    <h3 class="text-xl font-bold text-center">Ansible</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    DevOps
+                    <h3 class="text-xl font-bold text-center">DevOps</h3>
                 </li>
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
-                    Raspberry Pi
+                    <h3 class="text-xl font-bold text-center">Raspberry Pi</h3>
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
+    <section class="p-24 bg-gray-100">
+        <div class="px-8 m-auto text-center text-gray-600 max-w-8xl">
+
+        </div>
+    </section>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+    computed: {
+        inspiration() {
+            let quotes = [
+                "Get started today.",
+                "Never stop learning.",
+                "Be curious. Dive in."
+           ]
+            return quotes[Math.floor(Math.random()*quotes.length)]
+        }
+    }
+};
 </script>
