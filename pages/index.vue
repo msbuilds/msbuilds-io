@@ -104,13 +104,13 @@
             <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
             <h2 class="text-3xl">Get started today.</h2>
             <div class="my-8">
-              <a class=" inline-block px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
+              <a class="block text-center mb-4 xs:text-left xs:inline-block xs:mr-4 xs:mb-0 px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
               hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
               focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none"
                 href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg">
               Watch Videos
               </a>
-              <a class="ml-4 inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
+              <a class="block text-center xs:text-left xs:inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                   hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
                   focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none"
                         href="https://www.github.com/msbuilds">
