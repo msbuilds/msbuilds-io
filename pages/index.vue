@@ -92,7 +92,7 @@
           class="relative flex flex-col gap-12 mt-24 lg:flex-row md:items-start"
         >
           <div class="w-40 h-40 shrink-0">
-            <img class=" object-cover border-3 rounded-full w-48 h-40 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]"
+            <img alt="upset pug" class=" object-cover border-3 rounded-full w-48 h-40 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]"
               src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
           </div>
@@ -126,14 +126,14 @@
                   <div class="aspect-video bg-slate-800"></div>
                   <div class="p-6">
                     <div>
-                      <span class="pb-2 text-yellow-600">
+                      <span class="pb-2 text-yellow-700">
                         Video	
                       </span>
                     </div>
                     <h3 class="font-bold">
                       Building MSBuilds
                     </h3>
-                    <strong class="px-2 text-sm text-green-600 bg-green-100 rounded-full">coming soon</strong>
+                    <strong class="px-2 text-sm text-green-800 bg-green-100 rounded-full">coming soon</strong>
                     <p class="mt-4">
                       Enjoy the journey as a PHP developer takes on the exciting world of Javascript. Building a static website using Nuxt.js, Vercel and TailwindCSS. 
                     </p>
@@ -342,9 +342,9 @@
             </ul>
         </div>
     </section>
-    <section class="p-24 bg-gray-100">
+    <section class="p-12 bg-gray-100">
         <div class="px-8 m-auto text-center text-gray-600 max-w-8xl">
-
+            Need to get in touch? Try <a href="https://twitter.com/msbuildsio" target="_blank">Twitter</a> or email <a href="mailto:michael@msbuilds.io">michael@msbuilds.io</a>
         </div>
     </section>
   </div>
@@ -357,7 +357,8 @@ export default {
             let quotes = [
                 "Get started today.",
                 "Never stop learning.",
-                "Be curious. Dive in."
+                "Be curious. Dive in.",
+                "Everyone starts somewhere.",
            ]
             return quotes[Math.floor(Math.random()*quotes.length)]
         }
