@@ -9,10 +9,13 @@
                 </h1>
                 <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
                 <h2 class="text-3xl">More like random ideas.</h2>
-                <ul class="grid grid-cols-1 gap-12 mt-24 lg:grid-cols-2">
+                <ul class="grid grid-cols-1 gap-16 mt-24 lg:grid-cols-2">
                     <li v-for="article of articles" :key="article.slug">
-                        <h3 class="mb-4 text-2xl font-extrabold leading-10 ">{{ article.title }}</h3>
-                        <p class="text-slate-600">{{ article.description }}</p>
+                        <div class="mb-4">
+                            <h3 class="text-3xl font-extrabold leading-tight">{{ article.title }}</h3>
+                            <span class="text-sm text-slate-600">{{ formatDate(article.updatedAt) }}</span>
+                        </div>
+                        <p class="text-lg text-slate-600">{{ article.description }}</p>
                         <div class="flex flex-col justify-center gap-2 mt-6 sm:items-center sm:justify-start sm:gap-4 sm:flex-row">
                             <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }"
                             class="
@@ -26,7 +29,7 @@
                                     </svg>
                                 </span>
                             </NuxtLink>
-                            <a v-if="article.video" :href="article.video"
+                            <a v-if="article.video" :href="article.video" target="_blank"
                             class="inline-block text-center xs:text-left xs:inline-block px-6 py-2 font-bold text-slate-800 transition-all bg-white border-2 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                             hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
                             focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none">
@@ -50,12 +53,18 @@
 export default {
     async asyncData({ $content, params }) {
         const articles = await $content('articles')
-        .only(['title', 'description', 'img', 'slug', 'video'])
+        .only(['title', 'description', 'img', 'slug', 'video', 'updatedAt'])
         .sortBy('createdAt', 'desc')
         .fetch()
 
         return {
             articles
+        }
+    },
+    methods: {
+        formatDate(date) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' }
+            return new Date(date).toLocaleDateString('en', options)
         }
     }
 }

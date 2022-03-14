@@ -3,7 +3,7 @@ title: My test blog post
 description: This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.This is an example blog post we're using for testing. 
 video: https://youtube.com
 ---
-# My first blog post
+## Something Required
 
 Welcome to my first blog post using content module
 
