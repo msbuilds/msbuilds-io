@@ -1,93 +1,9 @@
 <template>
   <div class="antialiased">
     <div class="relative">
-      <div
-        class="absolute inset-0 grid-bg"
-        style="mask-image: linear-gradient(to top, transparent, black);-webkit-mask-image: linear-gradient(to top, transparent, black);"
-      ></div>
+      <GridBackground></GridBackground>
       <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800">
-        <div class="flex justify-between">
-          <a
-            href="/"
-            class=" flex group focus:outline-none shadow-[3px_3px_rgba(0,0,0,0.15)] hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
-            "
-          >
-            <img
-              class="inline p-2 transition-all w-14 h-14 bg-slate-800 group-hover:bg-yellow-500 group-focus:bg-yellow-500"
-              src="~assets/images/logo.svg"
-              alt="msbuilds logo"
-            />
-            <div
-              class="items-center justify-center hidden px-4 font-bold transition-all bg-white sm:flex border-3 border-slate-800 group-hover:border-yellow-500 group-focus:border-yellow-500"
-            >
-              MSBUILDS
-            </div>
-          </a>
-          <div
-            class="
-              flex
-              items-center
-              text-white
-              bg-black
-              shadow-[3px_3px_rgba(0,0,0,0.15)]
-            "
-          >
-            <a
-              class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="https://www.twitter.com/msbuildsio"
-            >
-              <svg
-                role="img"
-                class="inline w-5 h-5 mr-1"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-              >
-                <title>Twitter</title>
-                <path
-                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                />
-              </svg>
-              <span class="hidden md:inline">Twitter</span>
-            </a>
-            <a
-              class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="https://www.github.com/msbuilds"
-            >
-              <svg
-                role="img"
-                class="inline w-5 h-5 mr-1"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-              >
-                <title>GitHub</title>
-                <path
-                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                />
-              </svg>
-              <span class="hidden md:inline">Github</span>
-            </a>
-            <a
-              class="flex items-center justify-center px-4 py-2 transition-all border-4 border-transparent hover:underline hover:text-yellow-400 hover:decoration-1 focus:text-yellow-400 focus:underline focus:decoration-1 focus:outline-none group"
-              href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg"
-            >
-              <svg
-                role="img"
-                class="inline w-5 h-5 mr-1"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-              >
-                <title>YouTube</title>
-                <path
-                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
-                />
-              </svg>
-              <span class="hidden md:inline">YouTube</span>
-            </a>
-          </div>
-        </div>
+        <MenuBar></MenuBar>
         <div
           class="relative flex flex-col gap-12 mt-24 lg:flex-row md:items-start"
         >
@@ -113,109 +29,11 @@
               <a class="block text-center xs:text-left xs:inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                   hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
                   focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none"
-                        href="https://www.github.com/msbuilds">
-                Browse Github
+                        href="/blog">
+                Read Blog
               </a>
             </div>
-            <div class="mt-32">
-              <h2 class="text-6xl font-extrabold">Recently Updated</h2>
-              <div
-                class="grid grid-cols-1 gap-8 mt-6 md:grid-cols-2 xl:grid-cols-4"
-              >
-                <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
-                  <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6">
-                    <div>
-                      <span class="pb-2 text-yellow-700">
-                        Video	
-                      </span>
-                    </div>
-                    <h3 class="font-bold">
-                      Building MSBuilds
-                    </h3>
-                    <strong class="px-2 text-sm text-green-800 bg-green-100 rounded-full">coming soon</strong>
-                    <p class="mt-4">
-                      Enjoy the journey as a PHP developer takes on the exciting world of Javascript. Building a static website using Nuxt.js, Vercel and TailwindCSS. 
-                    </p>
-                  </div>
-                </div>
-                <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
-                  <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6 animate-pulse">
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
-                  <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6 animate-pulse">
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="shadow-[3px_3px_rgba(0,0,0,0.15)] bg-white">
-                  <div class="aspect-video bg-slate-800"></div>
-                  <div class="p-6 animate-pulse">
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                    <div class="flex-1 py-1 space-y-6">
-                      <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      <div class="space-y-3">
-                        <div class="grid grid-cols-3 gap-4">
-                          <div class="h-2 col-span-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                          <div class="h-2 col-span-1 rounded bg-slate-200 dark:bg-slate-700"></div>
-                        </div>
-                        <div class="h-2 rounded bg-slate-200 dark:bg-slate-700"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <FeaturedContent></FeaturedContent>
           </div>
         </div>
       </div>
@@ -351,6 +169,8 @@
 </template>
 
 <script>
+import MenuBar from "../components/MenuBar.vue";
+import GridBackground from "../components/GridBackground.vue";
 export default {
     computed: {
         inspiration() {
@@ -359,9 +179,10 @@ export default {
                 "Never stop learning.",
                 "Be curious. Dive in.",
                 "Everyone starts somewhere.",
-           ]
-            return quotes[Math.floor(Math.random()*quotes.length)]
+            ];
+            return quotes[Math.floor(Math.random() * quotes.length)];
         }
-    }
+    },
+    components: { MenuBar, GridBackground }
 };
 </script>
