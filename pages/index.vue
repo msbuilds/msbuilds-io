@@ -11,12 +11,11 @@
             />
           </div>
           <div>
-            <h1 class="text-6xl font-extrabold">
-              Exploring, learning and <br />
-              building together.
+            <h1 class="max-w-2xl text-6xl font-extrabold">
+              Exploring, learning and building together.
             </h1>
             <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
-            <h2 class="text-3xl">{{ inspiration }}</h2>
+            <h2 class="text-3xl">{{ inspiration() }}</h2>
             <div class="my-8">
               <a class="block text-center mb-4 xs:text-left xs:inline-block xs:mr-4 xs:mb-0 px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
               hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
@@ -170,7 +169,22 @@
 import MenuBar from "../components/MenuBar.vue";
 import GridBackground from "../components/GridBackground.vue";
 export default {
-    computed: {
+    async asyncData({ $content, params }) {
+        const articles = await $content('articles')
+        .limit(4)
+        .only(['title', 'description', 'img', 'slug', 'video', 'updatedAt'])
+        .sortBy('createdAt', 'desc')
+        .fetch()
+
+        return {
+            articles
+        }
+    },
+    methods: {
+        formatDate(date) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' }
+            return new Date(date).toLocaleDateString('en', options)
+        },
         inspiration() {
             let quotes = [
                 "Get started today.",

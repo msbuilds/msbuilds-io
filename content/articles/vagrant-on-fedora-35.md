@@ -1,6 +1,7 @@
 ---
 title: Using Vagrant on Fedora 35 
 description: Lets explore using Vagrant on Fedora to build virtual machines in bulk. Useful for testing bash and ansible scripts at scale. Useful for testing bash and ansible scripts at scale.
+featured: true
 ---
 
 ## Requirements

@@ -2,18 +2,18 @@
     <div>
         <GridBackground></GridBackground>
         <MenuBar></MenuBar>
-        <div class="relative p-8 m-auto mb-12 antialiased max-w-8xl text-slate-800">
+        <div class="relative p-8 m-auto mb-12 antialiased max-w-7xl text-slate-800">
             <section class="relative mt-12">
                 <h1 class="text-6xl font-extrabold">
                 Hot off the presses
                 </h1>
                 <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
                 <h2 class="text-3xl">More like random ideas.</h2>
-                <ul class="grid grid-cols-1 gap-16 mt-24 lg:grid-cols-2">
+                <ul class="flex flex-col max-w-6xl gap-16 mt-24">
                     <li v-for="article of articles" :key="article.slug">
                         <div class="mb-4">
                             <h3 class="text-3xl font-extrabold leading-tight">{{ article.title }}</h3>
-                            <span class="text-sm text-slate-600">{{ formatDate(article.updatedAt) }}</span>
+                            <span class="text-sm text-slate-600">{{ formatDate(article.createdAt) }}</span>
                         </div>
                         <p class="text-lg text-slate-600">{{ article.description }}</p>
                         <div class="flex flex-col justify-center gap-2 mt-6 sm:items-center sm:justify-start sm:gap-4 sm:flex-row">
@@ -53,7 +53,7 @@
 export default {
     async asyncData({ $content, params }) {
         const articles = await $content('articles')
-        .only(['title', 'description', 'img', 'slug', 'video', 'updatedAt'])
+        .only(['title', 'description', 'img', 'slug', 'video', 'createdAt'])
         .sortBy('createdAt', 'desc')
         .fetch()
 

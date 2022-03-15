@@ -2,6 +2,7 @@
 title: My first blog post
 description: This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.
 video: https://youtube.com/
+featured: true
 ---
 # My first blog post
 
