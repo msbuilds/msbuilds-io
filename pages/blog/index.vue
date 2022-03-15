@@ -1,9 +1,9 @@
 <template>
     <div>
         <GridBackground></GridBackground>
+        <MenuBar></MenuBar>
         <div class="relative p-8 m-auto mb-12 antialiased max-w-8xl text-slate-800">
-            <MenuBar></MenuBar>
-            <section class="relative mt-24">
+            <section class="relative mt-12">
                 <h1 class="text-6xl font-extrabold">
                 Hot off the presses
                 </h1>

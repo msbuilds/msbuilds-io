@@ -2,11 +2,9 @@
   <div class="antialiased">
     <div class="relative">
       <GridBackground></GridBackground>
+      <MenuBar></MenuBar>
       <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800">
-        <MenuBar></MenuBar>
-        <div
-          class="relative flex flex-col gap-12 mt-24 lg:flex-row md:items-start"
-        >
+        <div class="relative flex flex-col gap-12 mt-12 lg:flex-row md:items-start">
           <div class="w-40 h-40 shrink-0">
             <img alt="upset pug" class=" object-cover border-3 rounded-full w-48 h-40 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]"
               src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"

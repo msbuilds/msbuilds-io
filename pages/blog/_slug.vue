@@ -1,8 +1,8 @@
 <template>
     <article>
         <GridBackground></GridBackground>
-        <div class="relative p-8 m-auto mb-12 antialiased max-w-8xl text-slate-800">
-            <MenuBar></MenuBar>
+        <MenuBar></MenuBar>
+        <div class="relative py-8 m-auto mb-12 antialiased max-w-8xl text-slate-800">
             <div class="relative max-w-6xl px-8 m-auto bg-white shadow-lg border-t-3 border-slate-800">
                 <div class="flex items-center justify-between max-w-4xl pt-12 m-auto">
                     <a href="/blog" class="inline-flex items-center leading-10 hover:underline hover:decoration-yellow-400 hover:decoration-2">
@@ -17,7 +17,7 @@
                     <h1 class="max-w-6xl m-auto text-4xl font-extrabold text-center md:text-6xl">{{ article.title }}</h1>
                     <hr class="h-1 m-auto my-4 border-none w-28 bg-slate-800" />
                     <div class="max-w-4xl m-auto mb-24 text-xl text-center text-slate-600">{{ article.description }}</div>
-                    <div class="max-w-4xl m-auto text-lg prose">
+                    <div class="max-w-4xl m-auto mb-12 text-lg prose">
                         <nuxt-content :document="article" />
                     </div>                    
                 </section>

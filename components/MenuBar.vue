@@ -1,5 +1,5 @@
 <template>
-    <div class="relative m-auto mb-12 max-w-8xl text-slate-800">
+    <div class="relative p-8 m-auto max-w-8xl text-slate-800">
         <div class="flex justify-between">
             <a  href="/" 
                 class=" flex group shadow-[3px_3px_rgba(0,0,0,0.15)] focus:outline-none hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]">
