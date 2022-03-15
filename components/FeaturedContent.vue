@@ -1,12 +1,13 @@
 <template>
     <div class="mt-32">
         <h2 class="text-6xl font-extrabold">Featured</h2>
-        <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
+        <hr class="h-1 mt-4 mb-8 border-none w-28 bg-slate-800" />
         <ul class="grid max-w-6xl gap-16 mt-6 lg:grid-cols-2">
             <li v-for="article of articles" :key="article.slug">
                 <div class="mb-4">
                     <h3 class="text-3xl font-extrabold leading-tight">{{ article.title }}</h3>
                     <span class="text-sm text-slate-600">{{ formatDate(article.createdAt) }}</span>
+                    <span class="px-2 text-sm font-bold text-green-900 bg-green-100 rounded-full" v-show="recent(article.createdAt)">new</span>
                 </div>
                 <p class="text-lg text-slate-600">{{ article.description }}</p>
                 <div class="flex flex-col justify-center gap-2 mt-6 sm:items-center sm:justify-start sm:gap-4 sm:flex-row">
@@ -57,6 +58,12 @@ export default {
         formatDate(date) {
             const options = { year: 'numeric', month: 'long', day: 'numeric' }
             return new Date(date).toLocaleDateString('en', options)
+        },
+        recent(date) {
+            let currentDate = new Date(date)
+            const weekLater = currentDate.setDate(currentDate.getDate() + 7)
+
+            return weekLater >= new Date()
         }
     }
 }

@@ -46,26 +46,26 @@
                 </ul>
             </section>
         </div>
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
 export default {
     async asyncData({ $content, params }) {
-        const articles = await $content('articles')
-        .only(['title', 'description', 'img', 'slug', 'video', 'createdAt'])
-        .sortBy('createdAt', 'desc')
-        .fetch()
-
+        const articles = await $content("articles")
+            .only(["title", "description", "img", "slug", "video", "createdAt"])
+            .sortBy("createdAt", "desc")
+            .fetch();
         return {
             articles
-        }
+        };
     },
     methods: {
         formatDate(date) {
-            const options = { year: 'numeric', month: 'long', day: 'numeric' }
-            return new Date(date).toLocaleDateString('en', options)
+            const options = { year: "numeric", month: "long", day: "numeric" };
+            return new Date(date).toLocaleDateString("en", options);
         }
-    }
+    },
 }
 </script>

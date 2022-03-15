@@ -43,7 +43,7 @@
         <div class="bg-slate-800">
             <div class="relative px-8 py-48 m-auto text-white skew-y-3 max-w-8xl">
                 <h2 class="mb-8 text-6xl font-extrabold leading-snug">Tooling</h2>
-                <p class="mb-8">
+                <p class="mb-8 text-lg">
                     Below are a list of tools I consider essential to development. <br/> These tend to be the first applications to get installed and provide great developer experiences.
                 </p>
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -126,7 +126,7 @@
         </div>
         <div class="relative px-8 m-auto text-slate-800 max-w-8xl">
             <h2 class="mb-8 text-6xl font-extrabold leading-snug">Topics of Interest</h2>
-            <p class="my-4">
+            <p class="max-w-5xl my-4 text-lg">
                 Gone are the days of sitting down with your index.html file and building a website. With technology getting more complex each year, it's important as developers to remain interested in the ever-changing landscape. It isn't easy, and a lot of these technologies don't stick around for the long haul, but every year a new staple technology tends to emerge.  Below are some of the most common technologies and topics part of my workflow today.
             </p>
             <ul class="grid grid-cols-1 gap-4 mt-12 lg:grid-cols-2">
@@ -157,17 +157,11 @@
             </ul>
         </div>
     </section>
-    <section class="p-12 bg-gray-100">
-        <div class="px-8 m-auto text-center text-gray-600 max-w-8xl">
-            Need to get in touch? Try <a href="https://twitter.com/msbuildsio" target="_blank">Twitter</a> or email <a href="mailto:michael@msbuilds.io">michael@msbuilds.io</a>
-        </div>
-    </section>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import MenuBar from "../components/MenuBar.vue";
-import GridBackground from "../components/GridBackground.vue";
 export default {
     async asyncData({ $content, params }) {
         const articles = await $content('articles')
@@ -195,6 +189,5 @@ export default {
             return quotes[Math.floor(Math.random() * quotes.length)];
         }
     },
-    components: { MenuBar, GridBackground }
 };
 </script>
