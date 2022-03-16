@@ -1,6 +1,7 @@
 ---
 title: My test blog post
 description: This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.
+createdAt: January 2, 2022
 ---
 # My first blog post
 

@@ -2,6 +2,7 @@
 title: My test blog post
 description: This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.This is an example blog post we're using for testing. 
 video: https://youtube.com
+createdAt: December 14, 2021
 ---
 ## Something Required
 

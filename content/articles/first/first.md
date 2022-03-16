@@ -2,6 +2,7 @@
 title: My first real blog post
 description: This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing. This is an example blog post we're using for testing.
 featured: true
+createdAt: February 14, 2022
 ---
 # My first blog post
 
