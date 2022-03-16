@@ -1,8 +1,7 @@
 <template>
   <div class="antialiased">
     <div class="relative">
-      <GridBackground></GridBackground>
-      <MenuBar></MenuBar>
+      <Header></Header>
       <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800 dark:text-slate-100">
         <div class="relative flex flex-col gap-12 mt-12 lg:flex-row md:items-start">
           <div class="w-40 h-40 shrink-0">
@@ -18,16 +17,18 @@
             <h2 class="text-3xl">{{ inspiration() }}</h2>
             <div class="my-8">
               <a class="block text-center mb-4 xs:text-left xs:inline-block xs:mr-4 xs:mb-0 px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
+              dark:bg-slate-700 dark:border-slate-700 dark:hover:bg-yellow-400 dark:hover:border-yellow-400
+              dark:focus:bg-yellow-400 dark:focus:text-slate-800 dark:focus:border-yellow-400
               hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
               focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none
-              dark:bg-slate-700 dark:border-slate-700"
+              "
                 href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg">
               Watch Videos
               </a>
               <a class="block text-center xs:text-left xs:inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                   hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
                   focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none
-                  dark:border-white"
+                  dark:border-white dark:hover:border-yellow-400 dark:focus:border-yellow-400"
                         href="/blog">
                 Read Blog
               </a>

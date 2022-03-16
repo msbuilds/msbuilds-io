@@ -1,7 +1,6 @@
 <template>
     <div>
-        <GridBackground></GridBackground>
-        <MenuBar></MenuBar>
+        <Header></Header>
         <div class="relative py-8 m-auto mb-12 antialiased max-w-8xl text-slate-800 dark:text-slate-100">
             <div class="relative max-w-6xl px-4 m-auto bg-white shadow-lg border-t-3 border-slate-800 dark:bg-slate-800 dark:shadow-cyan-700">
                 <div class="flex items-center justify-between max-w-4xl pt-12 m-auto">

@@ -1,7 +1,6 @@
 <template>
     <div>
-        <GridBackground></GridBackground>
-        <MenuBar></MenuBar>
+        <Header></Header>
         <div class="relative p-8 m-auto mb-12 antialiased max-w-7xl text-slate-800 dark:text-slate-100">
             <section class="relative mt-12">
                 <h1 class="text-6xl font-extrabold">

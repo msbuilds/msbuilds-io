@@ -16,7 +16,7 @@
                     inline-block text-center xs:text-left xs:inline-block px-6 py-2 font-bold text-slate-800 transition-all bg-white border-2 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                     hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
                     focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none
-                    dark:border-white">
+                    dark:border-white dark:hover:border-yellow-400 dark:focus:border-yellow-400">
                         <span class="flex items-center">
                             Read Full Story <span class="sr-only">about {{ article.title }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

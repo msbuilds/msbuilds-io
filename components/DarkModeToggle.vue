@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col">
-        <button class="p-3 border border-none rounded-full shadow-inner bg-slate-100 dark:bg-slate-800"
+    <div class="self-stretch block md:self-auto md:inline-flex">
+        <button type="button" aria-label="toggle dark mode" class="flex items-center justify-center w-full p-3 border border-none rounded-full shadow-inner md:w-auto bg-slate-100 dark:bg-slate-800"
             v-if="$colorMode.preference === 'system'"
             @click="$colorMode.preference = 'dark'"
         >
@@ -16,7 +16,7 @@
             </svg>
         </button>
 
-        <button class="p-3 border border-none rounded-full shadow-inner bg-slate-800"
+        <button type="button" aria-label="toggle dark mode" class="flex items-center justify-center w-full p-3 border border-none rounded-full shadow-inner md:w-auto bg-slate-800"
             v-if="$colorMode.preference === 'dark'"
             @click="$colorMode.preference = 'light'"
         >
@@ -32,7 +32,7 @@
             </svg>
         </button>
 
-        <button class="p-3 border border-none rounded-full bg-slate-100"
+        <button type="button" aria-label="toggle dark mode" class="flex items-center justify-center w-full p-3 border border-none rounded-full md:w-auto bg-slate-100"
             v-if="$colorMode.preference === 'light'"
             @click="$colorMode.preference = 'system'"
         >
