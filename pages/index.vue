@@ -3,10 +3,10 @@
     <div class="relative">
       <GridBackground></GridBackground>
       <MenuBar></MenuBar>
-      <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800">
+      <div class="relative p-8 m-auto mb-12 max-w-8xl text-slate-800 dark:text-slate-100">
         <div class="relative flex flex-col gap-12 mt-12 lg:flex-row md:items-start">
           <div class="w-40 h-40 shrink-0">
-            <img alt="upset pug" class=" object-cover border-3 rounded-full w-48 h-40 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]"
+            <img alt="upset pug" class=" object-cover border-3 rounded-full w-48 h-40 border-slate-800 dark:border-slate-100 shadow-[3px_3px_rgba(0,0,0,0.15)]"
               src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             />
           </div>
@@ -14,18 +14,20 @@
             <h1 class="max-w-2xl text-6xl font-extrabold">
               Exploring, learning and building together.
             </h1>
-            <hr class="h-1 my-4 border-none w-28 bg-slate-800" />
+            <hr class="h-1 my-4 border-none w-28 bg-slate-800 dark:bg-slate-100" />
             <h2 class="text-3xl">{{ inspiration() }}</h2>
             <div class="my-8">
               <a class="block text-center mb-4 xs:text-left xs:inline-block xs:mr-4 xs:mb-0 px-6 py-4 font-bold text-white transition-all bg-slate-800 border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
               hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
-              focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none"
+              focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400  focus:outline-none
+              dark:bg-slate-700 dark:border-slate-700"
                 href="https://www.youtube.com/channel/UCrTMjG3ijpCmExYJm_Tp6rg">
               Watch Videos
               </a>
               <a class="block text-center xs:text-left xs:inline-block px-6 py-4 font-bold text-slate-800 transition-all bg-white border-3 border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]
                   hover:border-yellow-400 hover:text-slate-800 hover:bg-yellow-400 hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]
-                  focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none"
+                  focus:bg-yellow-400 focus:text-slate-800 focus:border-yellow-400 focus:outline-none
+                  dark:border-white"
                         href="/blog">
                 Read Blog
               </a>
@@ -124,12 +126,12 @@
         <div class="absolute inset-0 grid-bg top-1"
             style="mask-image: linear-gradient(to bottom, transparent, black);-webkit-mask-image: linear-gradient(to bottom, transparent, black);">
         </div>
-        <div class="relative px-8 m-auto text-slate-800 max-w-8xl">
+        <div class="relative px-8 m-auto text-slate-800 dark:text-slate-100 max-w-8xl">
             <h2 class="mb-8 text-6xl font-extrabold leading-snug">Topics of Interest</h2>
             <p class="max-w-5xl my-4 text-lg">
                 Gone are the days of sitting down with your index.html file and building a website. With technology getting more complex each year, it's important as developers to remain interested in the ever-changing landscape. It isn't easy, and a lot of these technologies don't stick around for the long haul, but every year a new staple technology tends to emerge.  Below are some of the most common technologies and topics part of my workflow today.
             </p>
-            <ul class="grid grid-cols-1 gap-4 mt-12 lg:grid-cols-2">
+            <ul class="grid grid-cols-1 gap-4 mt-12 lg:grid-cols-2 text-slate-800">
                 <li class="p-4 bg-white border border-slate-800 shadow-[3px_3px_rgba(0,0,0,0.15)]">
                     <h3 class="text-xl font-bold text-center">Laravel</h3>
                 </li>

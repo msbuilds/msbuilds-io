@@ -3,10 +3,10 @@
         <div class="flex justify-between">
             <a  href="/" 
                 class=" flex group shadow-[3px_3px_rgba(0,0,0,0.15)] focus:outline-none hover:shadow-[3px_3px_2px_rgba(0,0,0,0.15)]">
-                <img class="inline p-2 transition-all w-14 h-14 bg-slate-800 group-hover:bg-yellow-500 group-focus:bg-yellow-500"
+                <img class="inline p-2 transition-all w-14 h-14 bg-slate-800 group-hover:bg-yellow-500 group-focus:bg-yellow-500 dark:bg-slate-700"
                     src="~assets/images/logo.svg"
                     alt="msbuilds logo" />
-                <div class="items-center justify-center hidden px-4 font-bold transition-all bg-white sm:flex border-3 border-slate-800 group-hover:border-yellow-500 group-focus:border-yellow-500">
+                <div class="items-center justify-center hidden px-4 font-bold transition-all bg-white sm:flex border-3 border-slate-800 group-hover:border-yellow-500 group-focus:border-yellow-500 dark:border-slate-700">
                     MSBUILDS
                 </div>
             </a>

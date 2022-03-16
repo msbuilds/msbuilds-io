@@ -2,8 +2,12 @@
 title: Using Vagrant on Fedora 35 
 description: Lets explore using Vagrant on Fedora to build virtual machines in bulk. Useful for testing bash and ansible scripts at scale. Useful for testing bash and ansible scripts at scale.
 featured: true
----
-
+createdAt: March 15, 2022
+tags:
+    - Vagrant
+    - Fedora
+    - Ansible
+--- 
 ## Requirements
 
 - Fedora 35 installation
@@ -12,9 +16,13 @@ featured: true
 
 When setting up the virtualization, Vagrant had issues obtaining network information. To resovle this, two commands were required: 
 
-`sudo dnf install @virtualization`
+```bash
+sudo dnf install @virtualization
+```
 
-`sudo systemctl enable --now virtnetworkd`
+```bash
+sudo systemctl enable --now virtnetworkd
+```
 
 The first command will install all the virtualization packages required to do basic virtualization on Fedora. Why this was never mentioned before is beyond me. 
 
