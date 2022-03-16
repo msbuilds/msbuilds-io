@@ -48,6 +48,9 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
+        extractCSS: {
+            ignoreOrder: false
+        },
         postcss: { 
             plugins: { 
                 tailwindcss: {}, 
@@ -59,7 +62,7 @@ export default {
     content: {
         markdown: {
             prism: {
-                theme: 'prism-themes/themes/prism-nord.css'
+                theme: 'prism-themes/themes/prism-material-oceanic.css'
             }
         }
     }
