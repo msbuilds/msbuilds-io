@@ -1,7 +1,7 @@
 ---
 title: Building a Home Network VPN with Raspberry Pi Zero W
 description: With a spare Raspberry Pi Zero W on hand, what better way to gain access to your home network than to configure OpenVPN? 
-createdAt: March 17, 2022
+createdAt: March 17, 2022 15:00:00
 featured: true
 tags:
     - Raspberry Pi

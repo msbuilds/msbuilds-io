@@ -63,6 +63,9 @@ export default {
         markdown: {
             prism: {
                 theme: 'prism-themes/themes/prism-nord.css'
+            },
+            remarkAutolinkHeadings: {
+                linkProperties: { ariaHidden: 'true', tabIndex: -1, title: 'Link to section' }
             }
         }
     }
