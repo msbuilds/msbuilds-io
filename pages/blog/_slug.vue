@@ -2,7 +2,7 @@
     <div>
         <Header></Header>
         <div class="relative py-8 m-auto mb-12 antialiased max-w-8xl text-slate-800 dark:text-slate-100">
-            <div class="relative max-w-6xl px-4 m-auto bg-white shadow-[0px_0px_20px] border-t-3 border-slate-800 dark:bg-slate-800 dark:shadow-cyan-700">
+            <div class="relative max-w-6xl px-4 m-auto bg-white shadow-lg dark:shadow-[0px_0px_20px] border-t-3 border-slate-800 dark:bg-slate-800 dark:shadow-cyan-700">
                 <div class="flex items-center justify-between max-w-4xl pt-12 m-auto">
                     <a href="/blog" class="inline-flex items-center leading-10 hover:underline hover:decoration-yellow-400 hover:decoration-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
