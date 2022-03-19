@@ -21,7 +21,10 @@
 
 <script>
 export default {
-    async asyncData({ $content, params }) {
+    head() {
+        return { title: 'msbuilds - Blog' }
+    },
+    async asyncData({ $content }) {
         const articles = await $content("articles", { deep: true })
             .only(["title", "description", "img", "slug", "video", "createdAt"])
             .sortBy("createdAt", "desc")

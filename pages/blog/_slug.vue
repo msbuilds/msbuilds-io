@@ -28,10 +28,23 @@
 
 <script>
     export default {
-        async asyncData({ $content, params }) {
+        async asyncData({ $content, params, redirect}) {
             const article = await $content('articles', { deep: true }).where({ slug: params.slug }).fetch()
             
+            // if we have no article with that slug,
+            // redirect the user to our blog listing so they can find a new one.
+            if (article.length == 0)
+                return redirect(404, '/blog')
+
             return { article : article[0] }
+        },
+        computed: {
+            slug() {
+                return 'ja'
+            }
+        },
+        head() {
+            return { title: 'msbuilds - ' + this.article.title }
         },
         methods: {
             formatDate(date) {
