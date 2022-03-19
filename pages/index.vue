@@ -38,8 +38,8 @@
         </div>
       </div>
     </div>
-    <section class="-skew-y-3 my-36 ">
-        <div class="grid h-10 grid-cols-3 -mb-5 mt-36">
+    <section class="-skew-y-3 my-36">
+        <div class="grid h-10 grid-cols-3 -mb-5 mt-36" aria-hidden="true">
             <div class="bg-transparent"></div>
             <div class="col-span-2 bg-yellow-500"></div>
         </div>
@@ -118,7 +118,7 @@
                 </div>  
             </div>
         </div>
-        <div class="grid h-10 grid-cols-3 -mt-5 mb-36">
+        <div class="grid h-10 grid-cols-3 -mt-5 mb-36" aria-hidden="true">
             <div class="bg-yellow-500"></div>
             <div class="col-span-2 bg-transparent"></div>
         </div>
@@ -166,9 +166,9 @@
 
 <script>
 export default {
-    async asyncData({ $content, params }) {
+    async asyncData({ $content }) {
         const articles = await $content('articles')
-        .limit(4)
+        .limit(2)
         .only(['title', 'description', 'img', 'slug', 'video', 'updatedAt'])
         .sortBy('createdAt', 'desc')
         .fetch()
